@@ -21,6 +21,13 @@ class Pig extends BaseClass {
    
  }
 
-
+score()
+{
+  console.log("Hey! i m in score")
+  if(this.Visibility<0 && this.Visibility >-1005)
+  console.log(this.Visibility)
+    score++;
+    console.log("this is my score:"+score)
+}
 
 };
